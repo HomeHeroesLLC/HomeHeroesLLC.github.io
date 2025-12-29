@@ -4,23 +4,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home Heroes – Carpentry & Handyman Services</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
-    header { background: #2d2d2d; color: white; padding: 35px 20px; text-align: center; }
-    h1 { margin: 0; font-size: 2.5rem; }
-    p.slogan { font-size: 1.1rem; margin-top: 5px; }
-    nav { background: #444; padding: 12px; text-align: center; }
-    nav a { color: white; margin: 0 18px; text-decoration: none; font-size: 1rem; }
-    section { padding: 40px 20px; max-width: 900px; margin: auto; }
-    h2 { margin-bottom: 15px; }
-    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-    .service-box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 6px #ccc; }
-    .btn { background: #2d2d2d; color: white; padding: 12px 20px; border-radius: 5px; display: inline-block; margin-top: 10px; text-decoration: none; }
-    footer { background: #2d2d2d; color: white; text-align: center; padding: 18px; margin-top: 30px; }
+  
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+  header { background: #2d2d2d; color: white; padding: 35px 20px; text-align: center; }
+  h1 { margin: 0; font-size: 2.5rem; }
+  p.slogan { font-size: 1.1rem; margin-top: 5px; }
+  nav { background: #444; padding: 12px; text-align: center; }
+  nav a { color: white; margin: 0 18px; text-decoration: none; font-size: 1rem; }
+  section { padding: 40px 20px; max-width: 900px; margin: auto; }
+  h2 { margin-bottom: 15px; }
+  .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+  .service-box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 6px #ccc; }
+  .btn { background: #2d2d2d; color: white; padding: 12px 20px; border-radius: 5px; display: inline-block; margin-top: 10px; text-decoration: none; }
+  footer { background: #2d2d2d; color: white; text-align: center; padding: 18px; margin-top: 30px; }
 
-    /* Image styling */
-    .photo-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 25px; }
-    .photo-gallery img { width: 100%; border-radius: 8px; box-shadow: 0 0 8px #bbb; }
+  /* Photo Gallery */
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+  }
+
+  .photo-gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #bbb;
+    }
   </style>
 </head>
 
@@ -59,10 +70,11 @@
     </p>
     <p>Quality craftsmanship and honest service are at the core of everything we do.</p>
 
-    <!-- Added Photo Gallery -->
-    <div class="photo-gallery">
-      <img src="https://via.placeholder.com/450x300?text=Remodeled+Kitchen" alt="Remodeled Kitchen">
-      <img src="https://via.placeholder.com/450x300?text=Remodeled+Bathroom" alt="Remodeled Bathroom">
+<!-- Photo Gallery -->
+<div class="photo-gallery">
+  <img src="kitchen-remodel.jpg" alt="Custom kitchen remodel with island and cabinetry">
+  <img src="tile-floor-install.jpg" alt="Tile floor installation in progress">
+  <img src="bathroom-remodel.jpg" alt="Modern bathroom remodel with double vanity">
     </div>
   </section>
 
